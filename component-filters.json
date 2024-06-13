@@ -1,9 +1,7 @@
 [
   {
     "id": "main",
-    "components": [
-      "section"
-    ]
+    "components": ["section"]
   },
   {
     "id": "columns",
@@ -11,12 +9,7 @@
   },
   {
     "id": "column",
-    "components": [
-      "text",
-      "image",
-      "button",
-      "title"
-    ]
+    "components": ["text", "image", "button", "title"]
   },
   {
     "id": "section",
@@ -32,8 +25,19 @@
   },
   {
     "id": "cards",
+    "components": ["card"]
+  },
+  {
+    "id": "section",
     "components": [
-      "card"
+      "text",
+      "image",
+      "button",
+      "title",
+      "hero",
+      "cards",
+      "columns",
+      "quote"
     ]
   }
 ]
